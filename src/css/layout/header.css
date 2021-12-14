@@ -1,46 +1,22 @@
-.header__design {
+
+
+
+
+.header__object {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: -100px;
+    width:1200px;
     
-    width: 51vh;
-    height: 37.29vh;
-    left: 0vh;
-    top: 0vh;
-    z-index: -1;
-
-}
-
-.header__logo {
-   
-   
-    width: 25%;
-    height: 14.75vh;
-    left: 18.30vh;
-    top: 15.57vh;
-    position: absolute;
-
-}
-
-.header__title {
-    position: absolute;
-    width: 28.82vh;
-    height: 22.95vh;
-    left: 17.48vh;
-    top: 7.10vh;
-    font-family: var(--font-cinzel);
-    font-size: 2.32vh;
-    line-height: 20px;
-    color: #34211A;
-
-}
-
-.header__menubouton {
-    position: absolute;
-    width: 60px;
-    height: 38px;
-    left: 289px;
-    top: 66px;
-}
-
-.introart__suite {
-    margin-left: 9vh;
     
 }
+
+.header__fond {
+    height: 300px;
+    width: 1200px;
+    position: absolute;
+    z-index: -4;
+
+}
+
