@@ -1,43 +1,58 @@
-
+.accueil,.introart {
+    margin: 0 5vh;
+}
 
 
 .accueil__tagline {
-    
     font-size: 1.776rem;
     line-height:2.375rem;
     text-align: center;
     color: #34211A;
     text-shadow: 0px 4.54545px 4.54545px rgba(0, 0, 0, 0.25);
     font-family: var(--font-zenold);
+    margin:0 2vh;
+}
+
+.accueil__tagline {
+    margin-bottom: 3vh;
+    
 }
 
 .acceuil__afterstart {
     border-top: 50%;
     
 }
-/*
-.accueil__imgintro {
-    position: absolute;
-    width: 328px;
-    height: 299px;
-    left: 25px;
-    top: 367px;
 
-    background: url(../../../public/images/accueil_intro.webp);
+.accueil__imgintro {
+    padding: 0 5%;
+    width:100vh
 
 }
 
 .accueil__pourcentage {
-    position: absolute;
-    width: 135px;
-    height: 60px;
-    left: 32px;
-    top: 646px;
+    
     font-family:var(--font-ptserif);
     font-size: 45px;
-    line-height: 60px;
     letter-spacing: -0.025em;
+    margin:0 1vh;
+    font-weight: bold;
 }
+
+.accueil__bonnevisite{
+    
+    font-size: 22px;
+    line-height: 29px;
+    font-family:var(--font-ptserif);
+    font-weight: bold;
+    text-align: center;
+    
+}
+.accueil__visuel{
+    padding: 0 10%;
+    width: 100vh;
+    
+}
+/*
 
 .accueil__explicpourc {
     position: absolute;

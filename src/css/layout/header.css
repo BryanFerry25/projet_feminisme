@@ -1,5 +1,7 @@
 
-
+header{
+    margin-bottom: 10vh;
+}
 
 
 .header__object {
@@ -7,14 +9,14 @@
     justify-content:space-around;
     align-items: center;
     height: -100px;
-    width:1200px;
+    width:1400px;
     
     
 }
 
 .header__fond {
     height: 300px;
-    width: 1200px;
+    width: 1400px;
     position: absolute;
     z-index: -4;
 
