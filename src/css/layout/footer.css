@@ -1,0 +1,59 @@
+.footer__all{
+    background-color: var(--clair-cacao);
+ 
+}
+.footer__design{
+    margin-bottom: -1.5vh;
+    height: 75%;
+    width: 100%;
+    z-index:-4;
+
+}
+
+
+.footer__all{
+    justify-content: center;
+    align-content: center;
+}
+.footer__info{
+    text-align: center;
+    margin-top: -2vh;
+    
+}
+
+.footer__name{
+    font-family:var(--font-cinzel);
+
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__mmi {
+    text-align: center;
+    margin-top: 1vh;  
+    line-height: 4vh;
+      
+}
+
+.footer__infomail{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family:var(--font-cinzel);
+
+    font-size: 16px;
+    line-height: 19px;
+    
+  
+    
+    width:1400px;
+}
+
+.footer__renseignement{
+    font-family:var(--font-cinzel);
+
+    font-size: 16px;
+    line-height: 19px;
+}
+
+

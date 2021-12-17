@@ -10,7 +10,8 @@ body {
   font-size: var(--text-article);
   line-height: 1.6;
   background-color: var(--base-fond);
-  color: var(--foncé-marron2)
+  color: var(--foncé-marron2);
+  
 }
 
 h1, h2 {
@@ -21,6 +22,10 @@ h1, h2 {
   color: var(--foncé-marron2)
 }
 
+a{
+  text-decoration:none;
+  color:var(--foncé-marron2)
 
+}
 
 

@@ -84,8 +84,8 @@
 }
 .accueil__visuel{
     padding: 0 10%;
-    min-width:50%;
-    min-height:50%;
+    min-width:70%;
+    min-height:70%;
     width:auto;
     height:auto;
     margin-bottom: 7vh;
@@ -97,8 +97,8 @@
 }
 
 .introart__separaisong{
-    min-width:50%;
-    min-height:50%;
+    min-width:20%;
+    min-height:20%;
     width:auto;
     height:auto;
     display: block;
@@ -109,11 +109,10 @@
     
     min-width:50%;
     min-height:50%;
-    width:auto;
+    width: auto;
     height:auto;
     display: block;
     margin-left: auto;
-   
 
 }
 
@@ -122,11 +121,12 @@ h2[class*="introart__titre"]{
     background-color: var(--clair-peau);
     font-family: var(--font-cinzel);
 
-    font-size: 23px;
+    font-size: 1.3rem;
     line-height: 22px;
     text-align: center;
     margin: 5vh 0 3vh 0 ;
 }
+
 
 img[class*="introart__img"], .introart__suite{
     padding: 0 10%;
@@ -139,11 +139,13 @@ img[class*="introart__img"], .introart__suite{
     margin-left: auto;
     margin-right: auto ;
 
-
 }
 
 .introart__suite{
-    padding: 0 0 8vh 0;
+    min-width:20%;
+    min-height:20%;
+    padding: 1vh 0 5vh 0;
+    
 
 }
 
