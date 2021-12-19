@@ -1,4 +1,4 @@
-.article__titre{
+.article__title{
     font-family: var(--font-cinzel);
     font-size: 25px;
     line-height: 181.5%;
@@ -10,15 +10,65 @@
     background-color: var(--foncé-marron2);
     }
     
-    .article__imageintro {
-        min-width:50%;
-        min-height:50%;
+.article__imageintro {
+        min-width:70%;
+        min-height:70%;
         width:auto;
         height:auto;
-        padding: 0 5%;
+        
         width:50vh;
         
         display: block;
         margin-left: auto;
         margin-right: auto 
     }
+
+.article__intro{
+    font-family: var(--font-ptserif);
+    margin:3vh;
+
+    font-size: 0.9rem;
+    line-height: 21px;
+    
+
+}
+
+.article__subtitle{
+    font-family:var(--font-zenold);
+
+    font-size: 1.4rem;
+    line-height: 28px;
+    text-align: center;
+    background-color: var(--clair-cacao);
+    margin: 4vh 7vh;
+}
+
+.article__texte{
+    font-family: var(--font-zenold);
+    
+    font-size: 1rem;
+    line-height: 20px;
+    margin:4vh 3vh
+    
+}
+
+.article__legende{
+    font-family: var(--font-ptserif);
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    margin: 2vh 4vh
+}
+
+.article__image{
+    min-width:50%;
+    min-height:50%;
+    width:auto;
+    height:auto;
+    padding: 0 5%;
+    width:30vh;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
