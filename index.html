@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'"></html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +9,38 @@
     <title>Féminisme & Humanité</title>
 
     <link rel="stylesheet" href="src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header class="header">
+
+    <header class="header"
+    @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
+            :class="{ 'header--atTop' : !atTop }">
+
       <div class="header__start">
         <div class="header__object">
           <img src="public/icones/eclair.webp" alt="eclair">
           <img src="public/icones/logo.svg" alt="logo">
-          <img src="public/icones/menu.svg" alt="menu">
           <img class="header__fond" src="public/icones/accueil_design_entete.webp" alt="design en tete">
+
+          
+          
+              
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+          @pointerdown="menuIsOpen = !menuIsOpen" 
+          :class="menuIsOpen && 'menu-btn--open'">
+        <span class="menu-btn__bar"></span>
+      </button>
+      
+
         </div>
+        
       </div> 
-     
-        <nav class="header__menu menu">
-          <ul class="menu__list">
+      
+        <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+          <img class="menu__entete" src="public/icones/accueil_design_entete.webp" alt="">
+          <img class="menu__logo" src="public/icones/logo.svg" alt="logo">
+          <ul class="menu__list list-unstyled">
             <li class="menu__item">
               <a class="menu__link" href="article1.html">La puissance féminine</a></li>
             <li class="menu__item">
@@ -33,14 +51,16 @@
               <a class="menu__link" href="galerie.html">Galerie</a></li>
             <li class="menu__item">
               <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+              <hr class="menu__separaison1">
             <li class="menu__item">
               <a class="menu__link" href="a_propos.html">À Propos</a></li>
+              <hr class="menu__separaison2">
             <li class="menu__item">
               <a class="menu__link" href="#">Anglais</a></li>
           </ul>
         </nav>
         
-        
+      
           
       </header>
       <section class="accueil">
@@ -105,24 +125,27 @@
           <div class="footer__info">
             
             <p class="footer__name">Bryan Ferry A2 </p>
-            <hr>
-            <div class="footer__infomail">
-              <a class="footer__apropos" href="a_propos.html">à Propos</a>
+            
+            
+              
           
           
               <a class="footer__adresse" href="mailto:bryan.ferry@edu.univ-fcomte.fr">
                 <img class="footer__logomail" src="public/icones/logo_mail.svg" alt="Logo mailto">
               </a>
-              </div>
               
-          
+              
+            <div class="footer__contact">
             <p class="footer__renseignement">Besoin de renseignement ? </p>
   
-          
-            <a class="footer__contact" href="contact.html">
-              <img class="footer__boutoncontact" src="public/icones/contact.webp" alt="Bouton Contactez-moi">
-            </a>
-            <hr>
+            <div class="footer__besoininfo">
+              <a class="footer__buttoncontact" href="contact.html">CONTACT</a>
+              <a class="footer__apropos" href="a_propos.html">À PROPOS</a>
+            </div>
+            
+          </div>
+          <hr class="footer__separaison">
+            
           </div>
           
           <div class="footer__mmi">
@@ -131,7 +154,7 @@
             <p class="footer__mmiprojet">Projet réalisé dans le cadre d’un exercice <br>
            pédagogique au département </p>
         
-            <a class="footer__lienmmi" href="mmimontbéliard.com">MMi de Montbéliard</a>
+            <a class="footer__lienmmi" href="http://mmimontbeliard.com/">MMi de Montbéliard</a>
             
           </div>
           <br> <br>

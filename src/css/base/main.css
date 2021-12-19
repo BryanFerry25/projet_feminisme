@@ -28,4 +28,32 @@ a{
 
 }
 
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.noscroll,
+.noscroll body {
+  overflow: hidden;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

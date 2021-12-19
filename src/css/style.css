@@ -22,3 +22,5 @@
 
 /*components*/
 @import url('components/accueil.css');
+@import url('components/menu.css');
+@import url('components/article.css');

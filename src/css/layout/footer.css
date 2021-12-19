@@ -19,6 +19,7 @@
     text-align: center;
     margin-top: -2vh;
     
+    
 }
 
 .footer__name{
@@ -26,6 +27,9 @@
 
     font-size: 16px;
     line-height: 19px;
+    
+    
+    
 }
 
 .footer__mmi {
@@ -35,25 +39,48 @@
       
 }
 
-.footer__infomail{
+.footer__besoininfo{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    font-family:var(--font-cinzel);
+    
 
     font-size: 16px;
     line-height: 19px;
-    
-  
-    
     width:1400px;
 }
 
-.footer__renseignement{
-    font-family:var(--font-cinzel);
 
+
+.footer__renseignement{
+    
+    
     font-size: 16px;
     line-height: 19px;
 }
 
+
+.footer__renseignement{
+    background-color: #D1B07D;
+}
+
+
+ .footer__buttoncontact, .footer__apropos{
+    
+    border: solid 1px var(--foncé-marron2);
+    padding: 4px;
+    background-color: var(--clair-beige);
+    border-radius: 4px;
+}
+
+.footer__lienmmi{
+   
+    text-shadow: 0 0 0.2em var(--clair-beige), 0 0 0.2em var(--clair-beige)
+}
+.footer__separaison {
+    height: 2px;
+    color:var(--foncé-marron2);
+    width:100%;
+    background-color: var(--foncé-marron2);
+}
 
