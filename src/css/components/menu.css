@@ -1,7 +1,29 @@
+
+.menu__entete {
+  height: 300px;
+  width: 100%;
+  margin-top: 0;
+  z-index: -4;
+  margin-bottom: 88vh;
+  position: absolute;
+}
+
+.menu__logo{
+height: 100px;
+width: 100%;
+position: absolute;
+z-index: -4;
+margin-bottom: 85vh;
+
+position: absolute;
+}
+
+
+
 .menu {
     visibility: hidden;
     opacity: 0;
-    overflow: hidden;
+    -webkit-overflow-scrolling: auto;
     position: fixed;
     display: flex;
     position: fixed;
@@ -40,23 +62,6 @@ nav{
  
 }
 
-.menu__entete {
-    height: 300px;
-    width: 100%;
-    position: absolute;
-    z-index: -4;
-    margin-bottom: 88vh;
-}
-
-.menu__logo{
-  height: 100px;
-  width: 100%;
-  position: absolute;
-  z-index: -4;
-  margin-bottom: 85vh;
-  
-  position: absolute;
-}
 
 .menu-btn {
     position: relative;

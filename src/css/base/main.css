@@ -28,6 +28,17 @@ a{
 
 }
 
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+
 .list-unstyled {
   list-style: none;
   padding: 0;
@@ -39,11 +50,3 @@ a{
   overflow: hidden;
 }
 
-button {
-  -webkit-appearance: none;
-  appearance: none;
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-}
