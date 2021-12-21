@@ -35,33 +35,22 @@
 .footer__mmi {
     text-align: center;
     margin-top: 1vh;  
-    line-height: 4vh;
-      
+    line-height: 4vh;  
 }
 
 .footer__besoininfo{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    
-
     font-size: 16px;
     line-height: 19px;
     width:1400px;
 }
 
 
-
-.footer__renseignement{
-    
-    
-    font-size: 16px;
-    line-height: 19px;
-}
-
-
 .footer__renseignement{
     background-color: #D1B07D;
+    line-height: 19px;
 }
 
 
@@ -75,7 +64,8 @@
 
 .footer__lienmmi{
    
-    text-shadow: 0 0 0.2em var(--clair-beige), 0 0 0.2em var(--clair-beige)
+    color:var(--foncé-marron);
+    text-decoration: underline;
 }
 .footer__separaison {
     height: 2px;

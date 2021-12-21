@@ -19,7 +19,9 @@
       <div class="header__start">
         <div class="header__object2">
           <img src="public/icones/fleche_retour.svg" alt="retour" onclick="history.back()">
-          <img src="public/icones/logo.svg" alt="logo">
+          <a href="index.html">
+            <img src="public/icones/logo.svg" alt="logo">
+          </a>
           <img class="header__fond" src="public/icones/accueil_design_entete.webp" alt="design en tete">
 
           
@@ -63,7 +65,7 @@
           
       </header>
 
-    <main>   
+    <main class="article">   
 
     <section>
       <h1 class="article__title">La puissance féminine</h1>
@@ -168,53 +170,70 @@
       </section>
       <section>
 
-        <h3>L’histoire du féminisme en frise </h3>
+        <h3 class="article__frisetitle">L’histoire du féminisme en frise </h3>
         <img src="public/icones/frise.webp" alt="">
 
       </section>
-      <section>
-        <h4> Prochain article </h4>
-        <img src="public/icones/fleche_prochain.svg" alt="flèche allant vers la droite">
+      <section class="article__prochainfleche">
+        <h4 class="article__prochainart"> Prochain article </h4>
+        <a href="article2.html">
+          <img  src="public/icones/fleche_prochain.svg" alt="flèche allant vers la droite">
+        </a>
       </section>
-      <section>
-        <h4>Vous souhaitez en voir plus ? </h4>
-        <p>N’hésitez pas à regarder les autres articles proposé par d’autres éudiants.</p>
+      <section class="article__projet">
+        <h4 class="article__projetquest">Vous souhaitez en voir plus ? </h4>
+        <p class="article__projettexte">N’hésitez pas à regarder les autres articles proposé par d’autres éudiants.</p>
         <a href="autres_projets.html">
-          <img src="public/icones/photos_autres_projet.webp" alt="plusieurs photo illustrant le feminisme faisant référence aux autres projet de mes camarades">
+          <img class="article__projetimg" src="public/icones/photos_autres_projet.webp" alt="plusieurs photo illustrant le feminisme faisant référence aux autres projet de mes camarades">
         </a>
       </section>
     </main>
 
-    <footer>
-      <img src="public/icones/design_piedpage.webp" alt="design pied de page">
-      <div>
-        <p>Bryan <br> Ferry A2 </p>
-        <p>à Propos </p>
+    <footer class="footer">
+      <img class="footer__design" src="public/icones/design_piedpage.svg" alt="">
+      <div class="footer__all">
+       
+        <div class="footer__info">
+          
+          <p class="footer__name">Bryan Ferry A2 </p>
+          
+          
+            
         
-        <a href="mailto:bryan.ferry@edu.univ-fcomte.fr">
-          <img src="public/icones/logo_mail.svg" alt="Logo mailto">
-        </a>
         
-        <p>Besoin de renseignement ? </p>
+            <a class="footer__adresse" href="mailto:bryan.ferry@edu.univ-fcomte.fr">
+              <img class="footer__logomail" src="public/icones/logo_mail.svg" alt="Logo mailto">
+            </a>
+            
+            
+          <div class="footer__contact">
+          <p class="footer__renseignement">Besoin de renseignement ? </p>
 
+          <div class="footer__besoininfo">
+            <a class="footer__buttoncontact" href="contact.html">CONTACT</a>
+            <a class="footer__apropos" href="a_propos.html">À PROPOS</a>
+          </div>
+          
+        </div>
+        <hr class="footer__separaison">
+          
+        </div>
         
-          <a href="contact.html">
-            <img src="public/icones/contact.webp" alt="Bouton Contactez-moi">
-          </a>
-        
-      </div>
-      <div>
-  
-        <img src="public/icones/logo_mmi.svg" alt="logo du MMI de Montbéliard">
-     
+        <div class="footer__mmi">
+          <img class="footer__logommi" src="public/icones/logo_mmi.svg" alt="logo du MMI de Montbéliard">
 
-        <p>Projet réalisé dans le cadre d’un exercice <br>
+          <p class="footer__mmiprojet">Projet réalisé dans le cadre d’un exercice <br>
          pédagogique au département </p>
       
-        <a href="mmimontbéliard.com">MMi de Montbéliard</a>
+          <a class="footer__lienmmi" href="http://mmimontbeliard.com/">MMi de Montbéliard</a>
+          
+        </div>
+        <br> <br>
       </div>
 
     </footer>
+    
+  
 
   </body>
 </html>

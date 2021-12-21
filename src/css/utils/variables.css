@@ -27,7 +27,7 @@
     --font-ptserif: 'PT Serif Caption', serif;
 
     /* Espaces */
-    --space1x: 8px;
+    --spacearticle: 4.5vh;
     --space2x: 16px;
     --space3x: 24px;
     --space4x: 48px;
