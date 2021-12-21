@@ -1,5 +1,4 @@
 
-
 .menu--open, .menu--open body{
   overflow: hidden;
 }
@@ -26,6 +25,7 @@ position: absolute;
 
 
 .menu {
+  
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
@@ -72,11 +72,13 @@ nav{
     position: relative;
     z-index: 5;
     width: 40px;  
+    
   }
   
   .menu-btn__bar,
   .menu-btn__bar::before,
   .menu-btn__bar::after {
+    
     content: '';
     background: var(--foncé-marron2);
     height: 4px;
@@ -91,6 +93,7 @@ nav{
   }
   
   .menu-btn__bar::before {
+    
     width: 60%; 
     left:15px;
     top: -10px;
