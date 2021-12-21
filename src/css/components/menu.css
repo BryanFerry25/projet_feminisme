@@ -20,7 +20,7 @@ position: absolute;
 
 
 
-.header__menu {
+.menu {
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
