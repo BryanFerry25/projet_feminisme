@@ -1,4 +1,9 @@
 
+
+.menu-open, .menu-open body{
+  overflow: hidden;
+}
+
 .menu__entete {
   height: 300px;
   width: 100%;
