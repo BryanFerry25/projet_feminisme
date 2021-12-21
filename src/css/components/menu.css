@@ -20,10 +20,10 @@ position: absolute;
 
 
 
-.menu {
+.header__menu {
     visibility: hidden;
     opacity: 0;
-    -webkit-overflow-scrolling: auto;
+    overflow: hidden;
     position: fixed;
     display: flex;
     position: fixed;
