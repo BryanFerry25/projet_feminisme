@@ -1,66 +1,66 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site Féminisme & Humanité">
+    <meta name="description" content="site Féminisme & Humanité">
 
-    <title>Féminisme & Humanité -  À Propos </title>
+    <title>Féminisme & Humanité</title>
 
     <link rel="stylesheet" href="src/css/style.css">
-    
-  </head>
-  <body>
-    <header class="header">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body>
+  <header class="header">
 
-      <div class="header__start">
-        <div class="header__object2">
-          <img src="public/icones/fleche_retour.svg" alt="retour" onclick="history.back()">
-          <a href="index.html">
-            <img src="public/icones/logo.svg" alt="logo">
-          </a>
-          <img class="header__fond" src="public/icones/accueil_design_entete.webp" alt="design en tete">
-  
-          
-          
-              
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
-          @pointerdown="menuIsOpen = !menuIsOpen" 
-          :class="menuIsOpen && 'menu-btn--open'">
-        <span class="menu-btn__bar"></span>
-      </button>
-      
-  
-        </div>
+    <div class="header__start">
+      <div class="header__object2">
+        <img src="public/icones/fleche_retour.svg" alt="retour" onclick="history.back()">
+        <a href="index.html">
+          <img src="public/icones/logo.svg" alt="logo">
+        </a>
+        <img class="header__fond" src="public/icones/accueil_design_entete.webp" alt="design en tete">
+
         
-      </div> 
-      
-        <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
-       
-          <ul class="menu__list list-unstyled">
-            <li class="menu__item">
-              <a class="menu__link" href="article1.html">La puissance féminine</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="article2.html">Rebecca Amsellem, une lutte acharnée</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="article3.html">À quoi servent les femmes ?</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="galerie.html">Galerie</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="glossaire.html">Glossaire</a></li>
-              <hr class="menu__separaison1">
-            <li class="menu__item">
-              <a class="menu__link" href="a_propos.html">À Propos</a></li>
-              <hr class="menu__separaison2">
-            <li class="menu__item">
-              <a class="menu__link" href="#">Anglais</a></li>
-          </ul>
-        </nav>
         
+            
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+        @pointerdown="menuIsOpen = !menuIsOpen" 
+        :class="menuIsOpen && 'menu-btn--open'">
+      <span class="menu-btn__bar"></span>
+    </button>
+    
+
+      </div>
       
-          
-      </header>
+    </div> 
+    
+      <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+     
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="article1.html">La puissance féminine</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="article2.html">Rebecca Amsellem, une lutte acharnée</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="article3.html">À quoi servent les femmes ?</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="galerie.html">Galerie</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+            <hr class="menu__separaison1">
+          <li class="menu__item">
+            <a class="menu__link" href="a_propos.html">À Propos</a></li>
+            <hr class="menu__separaison2">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Anglais</a></li>
+        </ul>
+      </nav>
+      
+    
+        
+    </header>
       <main class="apropos">
         <h1 class="apropos__titre">À PROPOS</h1>
 

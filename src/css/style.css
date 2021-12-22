@@ -21,6 +21,7 @@
 @import url('layout/footer.css');
 @import url('layout/autre_projet.css');
 @import url('layout/apropos.css');
+@import url('layout/contact.css');
 
 /*components*/
 @import url('components/accueil.css');

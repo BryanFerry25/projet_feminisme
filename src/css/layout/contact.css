@@ -1,0 +1,101 @@
+.contact__titre{
+    font-family: var(--font-cinzel);
+    font-size: 30px;
+    line-height: 67px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.contact__enveloppe{
+    min-width:30%;
+    min-height:30%;
+    width:auto;
+    height:auto;
+    padding: 0 5%;
+    width:20vh;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
+}
+
+
+.contact__quest{
+    font-family: var(--font-zenold);
+    background-color: var(--clair-cacao);
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.contact__texte{
+    font-family:var(--font-zenold);
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 2vh 4vh 4vh 4vh;
+}
+
+
+
+#Message{
+    height:12vh;
+}
+
+.contact__textform{
+    margin-left: 3vh;
+    font-family: var(--font-zenold);
+    font-size: 1.2rem;
+    line-height: 5vh;
+    text-align: left;
+    color: var(--foncé-marron2);
+    
+    
+}
+
+.contact__saisi{
+    min-width:90%;
+    min-height:90%;
+    width:auto;
+    height:5vh;
+    width:30vh;
+    margin-left: 2vh ;
+    background-color: var(--clair-peau);
+    
+}
+
+.contact__boutonform{
+    margin: 4vh;
+    text-align: center;
+
+}
+
+.contact__bouton{
+    font-size: 1.3rem;
+    height: 6vh;
+    width: 20vh;
+    background-color: var(--clair-cacao);
+}
+
+.contact__reseautexte{
+    font-family:var(--font-zenold);
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 2vh 4vh 4vh 4vh;
+    text-align: center;
+}
+
+.contact__reseaulogo{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: -100px;
+    width:1400px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
