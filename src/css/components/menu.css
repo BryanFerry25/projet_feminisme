@@ -1,144 +1,99 @@
 
-.menu--open, .menu--open body{
-  overflow: hidden;
-}
-
-.menu__entete {
-  height: 300px;
-  width: 100%;
-  margin-top: 0;
-  z-index: -4;
-  margin-bottom: 88vh;
+.nav-toggle {
+  width: 2rem;
+  height: 2rem;
   position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  margin-top: 5vh;
+  margin-right: 3vh;
+  
 }
 
-.menu__logo{
-height: 100px;
-width: 100%;
-position: absolute;
-z-index: -4;
-margin-bottom: 85vh;
+.nav-toggle-bar,
+.nav-toggle-bar::before,
+.nav-toggle-bar::after {
+  
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  transition: all .4s ease-in-out;
+}
 
-position: absolute;
+.nav-toggle-bar::before {
+  top: -10px;
+}
+
+.nav-toggle-bar::after {
+  top: 10px;
+}
+
+.menu-open .nav-toggle-bar {
+  transform: rotate(135deg);
+  background-color: white;
+}
+
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after {
+  transform: rotate(90deg);
+  background-color: white;
+  top: 0;
 }
 
 
+/*Menu*/
 
 .menu {
-  
-    visibility: hidden;
-    opacity: 0;
-    overflow: hidden;
-    position: fixed;
-    display: flex;
-    position: fixed;
-    top: 0; bottom: 0;
-    left: 0; right : 0;
-    background-color: var(--clair-beige);
-    font-size: 16px;
-    
-    transition: all .4s ease-in-out;
-    
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  text-align: start;
+  transform: translateX(100vw);
+    transition: all .4s;
+    z-index: 1;
+    max-height: 100%;
+    padding-top: 90px;
+    padding-left: 50px;
 }
-.menu--open {
-    visibility: visible;
+
+.menu-open .menu {
+    transform: translateX(0);
+}
+
+.menu-open, 
+.menu-open body {
+    overflow: hidden;
+}
+.menu ul {
+    list-style: none;
+    margin: 00;
+    padding: 0;
+    font-size: 1.625rem;
+}
+.menu li {
+    margin-bottom: 35px;
+    transform: translateX(10px);
+    opacity: 0;
+    transition: all .3s ease;
+}
+.menu-open .menu li {
+    transform: translateX(0);
     opacity: 1;
 }
 
-
-.menu__item{
-    
-    text-align: center;
-    font-size: 1.02rem;
-    margin-top: 13%;
-}
-
-.menu__list{
-    margin: 25vh 8vh 9vh 15vw;
-
-}
-nav{
-    
-    font-family: var(--font-cinzel);
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.test{
  
 }
-
-
-.menu-btn {
-    position: relative;
-    z-index: 5;
-    width: 40px;  
-    
-  }
-  
-  .menu-btn__bar,
-  .menu-btn__bar::before,
-  .menu-btn__bar::after {
-    
-    content: '';
-    background: var(--foncé-marron2);
-    height: 4px;
-    width: 120%;
-    position: absolute;
-    left: 0;
-    z-index: 10;
-    border-radius: 4px;
-    transition: all .4s ease-in-out;
-    
-    
-  }
-  
-  .menu-btn__bar::before {
-    
-    width: 60%; 
-    left:15px;
-    top: -10px;
-    border-radius: 6px; 
-  }
-  
-  .menu-btn__bar::after {
-    width: 60%;
-    right:10px;
-    top: 10px;
-    border-radius: 6px;
-  }
-  
-  /* Technique pour transformer les 3 barres du bouton de menu en croix
-  Ne pas oublier d'ajouter une transition plus haut pour l'animation */
-  .menu-btn--open .menu-btn__bar,
-  .menu-btn--open .menu-btn__bar::before,
-  .menu-btn--open .menu-btn__bar::after {
-
-    transform: rotate(135deg);
-  }
-  
-  .menu-btn--open .menu-btn__bar::before,
-  .menu-btn--open .menu-btn__bar::after {
-    transform: rotate(90deg);
-    left:0px;
-    top: 0;
-    width:100%
-  }
-
-  .menu__separaison1{
-    height: 1px;
-    color:var(--foncé-marron2);
-    width:60%;
-    background-color: var(--foncé-marron2);
-    border-radius: 5px;
-  }
-
-.menu__separaison2{
-  height: 1px;
-  color:var(--foncé-marron2);
-  width:95%;
-  background-color: var(--foncé-marron2);
-  border-radius: 5px;
-}
-  
-  
-

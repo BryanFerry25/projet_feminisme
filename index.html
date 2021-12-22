@@ -24,20 +24,18 @@
         
         
             
-      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
-        @pointerdown="menuIsOpen = !menuIsOpen" 
-        :class="menuIsOpen && 'menu-btn--open'">
-      <span class="menu-btn__bar"></span>
-    </button>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+          <div class="nav-toggle-bar"></div>
+        </div>
     
 
       </div>
       
     </div> 
     
-      <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+      <nav class="menu">
      
-        <ul class="menu__list list-unstyled">
+        <ul class="despo_menu">
           <li class="menu__item">
             <a class="menu__link" href="article1.html">La puissance féminine</a></li>
           <li class="menu__item">
