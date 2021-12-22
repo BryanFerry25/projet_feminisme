@@ -5,7 +5,8 @@
     text-align: center;
     color: #FFFFFF;
     background-color: var(--foncé-marron2);
-    }
+    
+}
     
 .article__imageintro {
         min-width:70%;
@@ -16,7 +17,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
+}
 
 .article__intro{
     font-family: var(--font-ptserif);
