@@ -13,20 +13,32 @@
   </head>
   <body>
     <header class="header">
+
       <div class="header__start">
-        <img class="header__arrow" src="public/icones/fleche_retour.svg" alt="flèche retour">
-
-        <p class="header__title">Féminisme <br> & Humanité </p>
+        <div class="header__object2">
+          <img src="public/icones/fleche_retour.svg" alt="retour" onclick="history.back()">
+          <a href="index.html">
+            <img src="public/icones/logo.svg" alt="logo">
+          </a>
+          <img class="header__fond" src="public/icones/accueil_design_entete.webp" alt="design en tete">
+  
+          
+          
+              
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+          @pointerdown="menuIsOpen = !menuIsOpen" 
+          :class="menuIsOpen && 'menu-btn--open'">
+        <span class="menu-btn__bar"></span>
+      </button>
+      
+  
+        </div>
         
-        <img class="header__logo" src="public/icones/accueil_logo.webp" alt="logo Féminisme & Humanité">
-
-        <button class="header__menu-btn menu-btn">
-          <span class="menu-btn__bar"></span>
-        </button>
       </div> 
-        
-        <nav class="header__menu menu">
-          <ul class="menu__list">
+      
+        <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+       
+          <ul class="menu__list list-unstyled">
             <li class="menu__item">
               <a class="menu__link" href="article1.html">La puissance féminine</a></li>
             <li class="menu__item">
@@ -37,13 +49,16 @@
               <a class="menu__link" href="galerie.html">Galerie</a></li>
             <li class="menu__item">
               <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+              <hr class="menu__separaison1">
             <li class="menu__item">
               <a class="menu__link" href="a_propos.html">À Propos</a></li>
+              <hr class="menu__separaison2">
             <li class="menu__item">
               <a class="menu__link" href="#">Anglais</a></li>
           </ul>
         </nav>
-        <img class="header__design" src="public/icones/accueil_design_entete.webp" alt="design pour l'en tête en forme de vague">
+        
+      
           
       </header>
       <main>

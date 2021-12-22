@@ -12,58 +12,55 @@
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header class="header"
-    @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
-            :class="{ 'header--atTop' : !atTop }">
+  <header class="header">
 
-      <div class="header__start">
-        <div class="header__object2">
-          <img src="public/icones/fleche_retour.svg" alt="retour" onclick="history.back()">
-          <a href="index.html">
-            <img src="public/icones/logo.svg" alt="logo">
-          </a>
-          <img class="header__fond" src="public/icones/accueil_design_entete.webp" alt="design en tete">
+    <div class="header__start">
+      <div class="header__object2">
+        <img src="public/icones/fleche_retour.svg" alt="retour" onclick="history.back()">
+        <a href="index.html">
+          <img src="public/icones/logo.svg" alt="logo">
+        </a>
+        <img class="header__fond" src="public/icones/accueil_design_entete.webp" alt="design en tete">
 
-          
-          
-              
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
-          @pointerdown="menuIsOpen = !menuIsOpen" 
-          :class="menuIsOpen && 'menu-btn--open'">
-        <span class="menu-btn__bar"></span>
-      </button>
-      
-
-        </div>
         
-      </div> 
-      
-        <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
-          <img class="menu__entete" src="public/icones/accueil_design_entete.webp" alt="">
-          <img class="menu__logo" src="public/icones/logo.svg" alt="logo">
-          <ul class="menu__list list-unstyled">
-            <li class="menu__item">
-              <a class="menu__link" href="article1.html">La puissance féminine</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="article2.html">Rebecca Amsellem, une lutte acharnée</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="article3.html">À quoi servent les femmes ?</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="galerie.html">Galerie</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="glossaire.html">Glossaire</a></li>
-              <hr class="menu__separaison1">
-            <li class="menu__item">
-              <a class="menu__link" href="a_propos.html">À Propos</a></li>
-              <hr class="menu__separaison2">
-            <li class="menu__item">
-              <a class="menu__link" href="#">Anglais</a></li>
-          </ul>
-        </nav>
         
+            
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+        @pointerdown="menuIsOpen = !menuIsOpen" 
+        :class="menuIsOpen && 'menu-btn--open'">
+      <span class="menu-btn__bar"></span>
+    </button>
+    
+
+      </div>
       
-          
-      </header>
+    </div> 
+    
+      <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+     
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="article1.html">La puissance féminine</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="article2.html">Rebecca Amsellem, une lutte acharnée</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="article3.html">À quoi servent les femmes ?</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="galerie.html">Galerie</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+            <hr class="menu__separaison1">
+          <li class="menu__item">
+            <a class="menu__link" href="a_propos.html">À Propos</a></li>
+            <hr class="menu__separaison2">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Anglais</a></li>
+        </ul>
+      </nav>
+      
+    
+        
+    </header>
 
       <main>
         <h1>GALERIE</h1>
