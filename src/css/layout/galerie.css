@@ -1,7 +1,7 @@
 .galerie__titre{
     font-family: var(--font-cinzel);
-    font-size: 30px;
-    line-height: 67px;
+    font-size: var(--big-size);
+    line-height: 4.188rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     margin-bottom: 8vh;
@@ -20,7 +20,7 @@
     font-family: var(--font-zenold);
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: var(--normal-size);
     line-height: 50%;
     text-align: center;
     letter-spacing: -0.02em;
@@ -49,7 +49,7 @@
     font-style: italic;
     font-size: 1rem;
     letter-spacing: 0.4px;
-    line-height: 19px;
+    line-height: var(--line-size);
     margin: 4vh;
 }
 

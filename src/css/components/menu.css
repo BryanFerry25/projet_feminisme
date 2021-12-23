@@ -15,7 +15,7 @@
     top: 0; bottom: 0;
     left: 0; right : 0;
     background-color: var(--clair-beige);
-    font-size: 16px;
+    font-size: 1rem;
     transition: all .4s ease-in-out;
     
 }
@@ -47,7 +47,7 @@ nav{
  
 }
 .menu__separaison1{
-  height: 1px;
+  height: 0.063rem;
   color:var(--foncé-marron2);
   width:60%;
   background-color: var(--foncé-marron2);

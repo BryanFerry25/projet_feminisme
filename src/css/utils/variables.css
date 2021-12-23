@@ -9,16 +9,12 @@
     --foncé-marron2: rgba(52, 33, 26, 1);
 
     /* Text-size styles */
-    /* base size: texte-article (14px) */
-    --texte-article: 1rem;
-    --chapeau: 1.14rem;
-    --titre-article: 1.86rem;
-    --sous-titre: 1.36rem;
-    --texte-bloc-note: 1rem;
-    --texte-glossaire: 1.86rem;
-    --titre-glossaire: 2.14rem;
-    --texte-galerie: 1rem;
-    --legende: 0.71rem;
+    
+    --line-size:1.188rem;
+    --bigline-size:4.188rem;
+    --normal-size:1.563rem;
+    --big-size:1.875rem;
+
 
 
     /* Font-family styles */
@@ -28,7 +24,4 @@
 
     /* Espaces */
     --spacearticle: 4.5vh;
-    --space2x: 16px;
-    --space3x: 24px;
-    --space4x: 48px;
   }
