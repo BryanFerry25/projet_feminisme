@@ -1,0 +1,69 @@
+
+.glossaire__dict{
+    background-color:var(--clair-peau); ;
+}
+
+.glossaire__img{
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    width:40vh;
+
+
+    
+}
+
+
+
+.glossaire__def{
+    font-size: 1.2rem;
+    border-width:2px;
+    border-style:solid;
+    border-color:var(--foncé-marron2);
+    background-color: var(--clair-peau);
+    text-align: center;
+    margin: 5vh 2vh;
+    border-radius: 5px;
+    padding: 1vh;
+    
+    
+}
+
+dt{
+    font-family: var(--font-cinzel);
+    font-size:1.4rem ;
+    font-size: 1.2rem;
+    border-width:2px;
+    border-style:solid;
+    border-color:var(--foncé-marron2);
+    background-color: var(--clair-cacao);
+    text-align: center;
+    
+    
+    padding: 1vh;
+    margin-bottom: 18vh;
+    
+}
+
+dl{
+    font-size: 1.2rem;
+    font-family: var(--font-ptserif);
+    
+    padding-bottom: 20vh;
+
+    
+    
+}
+
+dd{
+    margin: 0 4vh;
+    text-align: center;
+}
+
+.glossaire__fleche{
+    
+   text-align: center;
+}
+
+

@@ -23,6 +23,7 @@
 @import url('layout/apropos.css');
 @import url('layout/contact.css');
 @import url('layout/galerie.css');
+@import url('layout/glossaire.css');
 
 /*components*/
 @import url('components/accueil.css');

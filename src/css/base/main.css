@@ -50,3 +50,10 @@ button {
   overflow: hidden;
 }
 
+span{
+  background-color: var(--clair-peau);
+}
+
+.article__galerie{
+  background-color: #FAD2AE;
+}
