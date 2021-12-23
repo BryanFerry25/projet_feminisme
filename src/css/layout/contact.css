@@ -73,6 +73,7 @@
 }
 
 .contact__bouton{
+    color: var(--foncé-marron2);
     font-size: 1.3rem;
     height: 6vh;
     width: 20vh;
