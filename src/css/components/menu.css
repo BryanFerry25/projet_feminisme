@@ -1,6 +1,20 @@
 
-.menu--open, .menu--open body{
+
+.menu {
+  
+  visibility: hidden;
+  opacity: 0;
   overflow: hidden;
+  position: fixed;
+  display: flex;
+  position: fixed;
+  top: 0; bottom: 0;
+  left: 0; right : 0;
+  background-color: var(--clair-beige);
+  font-size: 16px;
+  
+  transition: all .4s ease-in-out;
+  
 }
 
 
@@ -19,6 +33,8 @@
     transition: all .4s ease-in-out;
     
 }
+
+
 .menu--open {
     
     visibility: visible;
@@ -121,4 +137,3 @@ nav{
 
   
   
-
