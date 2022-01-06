@@ -162,3 +162,17 @@ p[class*="introart__tweet"] {
 
 
 
+.introart__button{
+    color: var(--base-fond);
+    font-size: 1.3rem;
+    height: 6vh;
+    width: 25vh;
+    background-color: var(--foncé-marron2);
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
+.introart__buttonsuite{
+    margin: 4vh;
+    text-align: center;
+}
