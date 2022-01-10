@@ -45,10 +45,9 @@
     line-height: var(--line-size);
     text-align: center;
     color: var(--foncé-marron2);
-   
-    
-    
 }
+
+
 
 .projet__cadre{
     border-width:2px;
@@ -57,14 +56,9 @@
     border-radius: 8px;
     background-color: var(--clair-chocolat);
     margin-bottom: 4vh;
-    
-
 }
 
 .projet__cadre>img {
- 
-
     padding: 5%;
-  
-
 }
+
