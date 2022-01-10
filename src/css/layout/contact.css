@@ -39,11 +39,6 @@
 }
 
 
-
-#Message{
-    height:20vh;
-}
-
 .contact__textform{
     margin-left: 3vh;
     font-family: var(--font-zenold);
@@ -64,6 +59,16 @@
     margin-left: 2vh ;
     background-color: var(--clair-peau);
     
+}
+
+
+.contact__saisi-message{
+    min-width:90%;
+    min-height:90%;
+    width:auto;
+    margin-left: 2vh ;
+    background-color: var(--clair-peau);
+
 }
 
 .contact__boutonform{
