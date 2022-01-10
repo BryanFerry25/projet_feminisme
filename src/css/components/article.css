@@ -83,6 +83,7 @@
     text-align: right;
     font-style: italic;
     font-weight: normal;
+
 }
 
 .article__prochainfleche{
@@ -99,6 +100,7 @@
     text-align: left;
     font-style: italic;
     font-weight: normal;
+    margin-right: 42vw;
 }
 
 .article__precedfleche{
