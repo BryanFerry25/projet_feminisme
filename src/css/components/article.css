@@ -100,7 +100,7 @@
     text-align: left;
     font-style: italic;
     font-weight: normal;
-    margin-right: 42vw;
+    
 }
 
 .article__precedfleche{
@@ -108,6 +108,15 @@
     margin: var(--spacearticle);
     
 }
+
+.article__doublefleche{
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+
+
 
 .article__projet{
     text-align: center;
@@ -143,14 +152,6 @@
 }
 
 
-.article__doublefleche{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    height: -100px;
-    width:1400px;
-
-}
 
 
 .article__video{
